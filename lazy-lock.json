@@ -30,5 +30,7 @@
   "telescope.nvim": { "branch": "master", "commit": "6312868392331c9c0f22725041f1ec2bef57c751" },
   "tokyonight.nvim": { "branch": "main", "commit": "b357de8d1d8d0d90be0d7f7750c7aa7eb7f4b020" },
   "vim-maximizer": { "branch": "master", "commit": "2e54952fe91e140a2e69f35f22131219fcd9c5f1" },
-  "vim-tmux-navigator": { "branch": "master", "commit": "5b3c701686fb4e6629c100ed32e827edf8dad01e" }
+  "vim-test": { "branch": "master", "commit": "34aab77f7a63f20a623df45684156915f6182a55" },
+  "vim-tmux-navigator": { "branch": "master", "commit": "5b3c701686fb4e6629c100ed32e827edf8dad01e" },
+  "vimux": { "branch": "master", "commit": "fa35410805b82ffabc29e3cb5cdf3ad0b8dc402d" }
 }
