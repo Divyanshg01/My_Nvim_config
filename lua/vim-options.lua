@@ -27,4 +27,5 @@ vim.cmd("set ai")
 vim.cmd("set si")
 vim.cmd("set hidden")
 vim.cmd("set termguicolors")
+vim.cmd("set modifiable")
 vim.g.mapleader = " "
