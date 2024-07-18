@@ -48,6 +48,9 @@ return {
             lspconfig.emmet_ls.setup({
                 capabilities = capabilities,
             })
+            lspconfig.glslls.setup({
+                capabilities = capabilities,
+            })
             -- lspconfig.neocmakelsp.setup({
             --   capabilities = capabilities,
             -- })
