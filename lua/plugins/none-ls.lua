@@ -31,7 +31,6 @@ return {
                 null_ls.builtins.diagnostics.sqlfluff.with({
                     extra_args = { "--dialect", "postgres" }, -- change to your dialect
                 }),
-                null_ls.builtins.diagnostics.stylelint,
                 null_ls.builtins.diagnostics.tidy,
                 require("none-ls.diagnostics.eslint"),
             },

@@ -51,6 +51,12 @@ return {
             lspconfig.glslls.setup({
                 capabilities = capabilities,
             })
+            lspconfig.cssls.setup({
+                capabilities = capabilities,
+            })
+            lspconfig.glsl_analyzer.setup({
+                capabilities = capabilities,
+            })
             -- lspconfig.neocmakelsp.setup({
             --   capabilities = capabilities,
             -- })
