@@ -48,9 +48,6 @@ return {
             lspconfig.emmet_ls.setup({
                 capabilities = capabilities,
             })
-            lspconfig.glslls.setup({
-                capabilities = capabilities,
-            })
             lspconfig.cssls.setup({
                 capabilities = capabilities,
             })

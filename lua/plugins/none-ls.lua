@@ -26,7 +26,6 @@ return {
                 }),
                 null_ls.builtins.diagnostics.golangci_lint,
                 null_ls.builtins.diagnostics.hadolint,
-                null_ls.builtins.diagnostics.ltrs,
                 null_ls.builtins.diagnostics.spectral,
                 null_ls.builtins.diagnostics.sqlfluff.with({
                     extra_args = { "--dialect", "postgres" }, -- change to your dialect
