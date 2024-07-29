@@ -54,6 +54,9 @@ return {
             lspconfig.glsl_analyzer.setup({
                 capabilities = capabilities,
             })
+            lspconfig.jsonls.setup({
+                capabilities = capabilities,
+            })
             -- lspconfig.neocmakelsp.setup({
             --   capabilities = capabilities,
             -- })
