@@ -31,5 +31,8 @@ vim.cmd("set modifiable")
 vim.keymap.set("n" , "<C-q>","<cmd>qa<CR>" , {})
 vim.keymap.set("n" , "qq","<cmd>q<CR>" , {})
 
+
+vim.keymap.set("n" , "<S-b>","<C-o>" , {})
+
 vim.keymap.set("n" , "<C-a>","<cmd>nohlsearch<CR>" , {})
 vim.g.mapleader = " "
