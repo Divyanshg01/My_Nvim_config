@@ -28,6 +28,7 @@ vim.cmd("set si")
 vim.cmd("set hidden")
 vim.cmd("set termguicolors")
 vim.cmd("set modifiable")
+vim.cmd("set clipboard+=unnamedplus")
 vim.keymap.set("n" , "<C-q>","<cmd>qa<CR>" , {})
 vim.keymap.set("n" , "qq","<cmd>q<CR>" , {})
 
